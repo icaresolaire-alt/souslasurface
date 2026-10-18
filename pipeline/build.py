@@ -15,8 +15,9 @@ def load(path):
 if __name__ == '__main__':
     mod = load(sys.argv[1])
     if sys.argv[2] == '--stills':
-        for x in sys.argv[3:]: still(f'/tmp/still_{x}.png', float(x), mod.draw)
-        print('images dans /tmp/still_*.png')
+        d = os.environ.get('STILLS_DIR', '/tmp'); os.makedirs(d, exist_ok=True)
+        for x in sys.argv[3:]: still(f'{d}/still_{x}.png', float(x), mod.draw)
+        print(f'images dans {d}/still_*.png')
     else:
         out = os.path.abspath(sys.argv[2]); wav = out[:-4] + '.wav'
         build_audio(mod, wav)
