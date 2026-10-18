@@ -15,6 +15,7 @@ Le propriétaire valide la vidéo du jour s'il le souhaite. **Sans réponse de s
 - Garder la direction artistique : fond bleu nuit, doré, typo Inter Display + chiffres en mono (constantes dans `pipeline/lib.py`).
 - Garder la musique et la structure du pilote (`pipeline/music.py`, épisodes 001 et 002).
 - Français, tutoiement, phrases courtes et directes.
+- **Sujet géographique (routes, ports, détroits, pays) : toujours une vraie carte du monde**, avec `pipeline/worldmap.py` (contours Natural Earth, routes maritimes réalistes, ports). Exemple dans `ep002`.
 - Chiffres vérifiés uniquement. Jamais de chiffre inventé. Sujet finance : contenu éducatif, jamais de conseil personnalisé.
 
 ## Structure d'un épisode (60 à 70 s)
@@ -58,3 +59,7 @@ Repères de mise en page (1080×1920) : texte entre y≈230 et y≈1550 (le bas 
 11. Mettre à jour `SUJETS.md` (statut) et `PUBLICATIONS.md` (date, sujet, fichier, sources), commit et push.
 
 En cas d'échec d'une étape : ne pas publier une vidéo non vérifiée, et prévenir le propriétaire de ce qui a bloqué.
+
+## Données
+
+- `pipeline/data/ne_50m_land.geojson` : contours des terres, Natural Earth (domaine public).

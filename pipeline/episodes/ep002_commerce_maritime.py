@@ -5,16 +5,10 @@ from kinetic import words, bump, big_center
 
 TOTAL = 66.0
 # route stylisée Shanghai -> Rotterdam (via Singapour, Suez)
-ROUTE = [(900, 700), (860, 820), (780, 960), (700, 1000), (600, 960), (500, 880), (430, 790), (380, 700), (300, 620), (210, 560)]
-STOPS = {0: 'Shanghai', 3: 'Singapour', 7: 'Suez', 9: 'Rotterdam'}
-
-def path_point(pts, p):
-    seglen = [math.dist(pts[i], pts[i+1]) for i in range(len(pts)-1)]
-    total = sum(seglen); d = p * total
-    for i, L in enumerate(seglen):
-        if d <= L: return (lerp(pts[i][0], pts[i+1][0], d/L), lerp(pts[i][1], pts[i+1][1], d/L)), i
-        d -= L
-    return pts[-1], len(pts) - 2
+from worldmap import WorldMap, PORTS, ROUTE_SHANGHAI_ROTTERDAM as ROUTE
+MAP = WorldMap(lon=(-15, 130), lat=(-5, 60), x=60, y=600, w=960)
+# (port, fraction de route où il est atteint, décalage du libellé, alignement)
+STOPS = [('Shanghai', 0.0, -26, 'center'), ('Singapour', 0.27, 40, 'center'), ('Suez', 0.62, 40, 'center'), ('Rotterdam', 1.0, -26, 'center')]
 
 def tshirt(f, x, y, s, col, a=1.0):
     if a <= 0: return
@@ -40,35 +34,31 @@ def draw(f, t):
     f.rect(140, 236, 800, 92, OCEAN, ha * 0.9, 46)
     f.text('Comment si peu cher ?', W/2, 296, 46, SPARK, ha)
 
-    # S1 — accroche (0–4)
+    # S1 — accroche (0–4) : vraie carte du monde, le t-shirt suit la route maritime
     if t < 4.3:
         o = 3.9; fo = 1 - seg(t, o, o + 0.3)
         p = ease_io(seg(t, 0.0, 3.6))
-        f.line(ROUTE, LINE, fo, 6)
-        (x, y), _ = path_point(ROUTE, p)
-        tshirt(f, x, y, 70, SPARK, fo)
+        MAP.draw(f, fo)
+        MAP.route(f, ROUTE, p, fo, SPARK, 5)
+        x, y = MAP.point_on(ROUTE, p)
+        tshirt(f, x, y, 56, SPARK, fo)
         words(f, 'Ton t-shirt a fait', 380, 80, 0.15, INK, t_out=o)
         words(f, '20 000 km.', 490, 96, 0.6, INK, t_out=o)
         words(f, 'Le voyage lui a coûté', 1200, 72, 1.5, INK, t_out=o)
         words(f, 'moins de 10 centimes.', 1300, 84, 2.1, SPARK, t_out=o)
 
-    # S2 — le trajet (4–12)
+    # S2 — le trajet sur la carte (4–12)
     if 4.0 <= t < 12.6:
         ga = ease(seg(t, 4.1, 4.5)) * (1 - seg(t, 12.0, 12.4))
         p = ease_io(seg(t, 4.6, 10.4))
-        k = max(2, int(2 + p * 200))
-        pts = [path_point(ROUTE, i / 200 * p)[0] for i in range(k)]
-        f.line(ROUTE, LINE, ga, 6)
-        if len(pts) > 1: f.line(pts, SPARK, ga, 8)
-        for i, name in STOPS.items():
-            reached = p >= sum(math.dist(ROUTE[j], ROUTE[j+1]) for j in range(i)) / sum(math.dist(ROUTE[j], ROUTE[j+1]) for j in range(len(ROUTE)-1)) - 1e-6
-            col = SPARK if reached else MUTED
-            x, y = ROUTE[i]
-            f.circle(x, y, 14 if i in (0, 9) else 9, col, ga)
-            dy = -34 if i in (0, 9) else 44
-            f.text(name, x, y + dy, 36 if i in (0, 9) else 30, INK if i in (0, 9) else MUTED, ga, DISPLAY, i in (0, 9))
-        (x, y), _ = path_point(ROUTE, p)
-        tshirt(f, x, y, 46, INK, ga)
+        MAP.draw(f, ga)
+        MAP.route(f, ROUTE, p, ga, SPARK, 7)
+        for name, frac, dy, al in STOPS:
+            col = SPARK if p >= frac else MUTED
+            big = name in ('Shanghai', 'Rotterdam')
+            MAP.port(f, *PORTS[name], name, ga, col, 12 if big else 8, 34 if big else 28, dy, big)
+        x, y = MAP.point_on(ROUTE, p)
+        tshirt(f, x, y, 44, INK, ga)
         f.text(fmt_int(19500 * p) + ' km', W/2, 470, 70, INK, ga, MONO)
         words(f, 'Environ un mois en mer.', 1250, 58, 6.8, MUTED, t_out=12.0, bold=False)
         words(f, 'Et pourtant, presque gratuit.', 1340, 58, 9.4, SPARK, t_out=12.0)
