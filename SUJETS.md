@@ -6,16 +6,16 @@ Prendre le premier « à faire » en alternant les piliers. Les pistes de chiffr
 |---|---|---|---|---|
 | 1 | Le paradoxe des anniversaires | Maths | 23 personnes = 50,7 % | publié |
 | 2 | Le t-shirt à 5 centimes de transport | Mer | Drewry Shanghai–Rotterdam, NPR 80 000 t-shirts | publié |
-| 3 | Pourquoi le casino gagne toujours | Maths | loi des grands nombres, avantage maison de la roulette européenne (1/37) | en production (lot 19–23 oct.) |
-| 4 | Pourquoi tant de navires sont immatriculés au Panama | Mer | pavillons de complaisance, part de la flotte sous Panama, Liberia, Marshall | en production (lot 19–23 oct.) |
-| 5 | Les intérêts composés | Argent | 10 000 € à 7 % sur 40 ans, règle de 72 | en production (lot 19–23 oct.) |
-| 6 | Un navire coincé, le monde bloqué : l'Ever Given | Mer | Suez mars 2021, durée du blocage, valeur des marchandises bloquées par jour | en production (lot 19–23 oct.) |
-| 7 | La loi de Pareto (80/20) | Maths | ordre de grandeur, pas une loi exacte | en production (lot 19–23 oct.) |
-| 8 | La boîte qui a changé le monde : le conteneur | Mer | Malcolm McLean 1956, baisse du coût de chargement | en production (lot 19–23 oct.) |
-| 9 | DCA ou tout investir d'un coup ? | Argent | étude Vanguard 2012 (environ 2 fois sur 3) | en production (lot 19–23 oct.) |
-| 10 | Pourquoi les navires ralentissent exprès | Mer | slow steaming, consommation qui grimpe très vite avec la vitesse | en production (lot 19–23 oct.) |
-| 11 | 10 amis qui invitent 10 amis | Maths | 10 niveaux = 10 milliards (pas 10⁸) | en production (lot 19–23 oct.) |
-| 12 | Les détroits qui tiennent le monde (Ormuz, Malacca) | Mer | part du pétrole et du commerce qui y passe | en production (lot 19–23 oct.) |
+| 3 | Pourquoi le casino gagne toujours | Maths | loi des grands nombres, avantage maison de la roulette européenne (1/37) | programmé (lot 19–23 oct.) |
+| 4 | Pourquoi tant de navires sont immatriculés au Panama | Mer | pavillons de complaisance, part de la flotte sous Panama, Liberia, Marshall | programmé (lot 19–23 oct.) |
+| 5 | Les intérêts composés | Argent | 10 000 € à 7 % sur 40 ans, règle de 72 | programmé (lot 19–23 oct.) |
+| 6 | Un navire coincé, le monde bloqué : l'Ever Given | Mer | Suez mars 2021, durée du blocage, valeur des marchandises bloquées par jour | programmé (lot 19–23 oct.) |
+| 7 | La loi de Pareto (80/20) | Maths | ordre de grandeur, pas une loi exacte | programmé (lot 19–23 oct.) |
+| 8 | La boîte qui a changé le monde : le conteneur | Mer | Malcolm McLean 1956, baisse du coût de chargement | programmé (lot 19–23 oct.) |
+| 9 | DCA ou tout investir d'un coup ? | Argent | étude Vanguard 2012 (environ 2 fois sur 3) | programmé (lot 19–23 oct.) |
+| 10 | Pourquoi les navires ralentissent exprès | Mer | slow steaming, consommation qui grimpe très vite avec la vitesse | programmé (lot 19–23 oct.) |
+| 11 | 10 amis qui invitent 10 amis | Maths | 10 niveaux = 10 milliards (pas 10⁸) | programmé (lot 19–23 oct.) |
+| 12 | Les détroits qui tiennent le monde (Ormuz, Malacca) | Mer | part du pétrole et du commerce qui y passe | programmé (lot 19–23 oct.) |
 | 13 | Ce que 100 € de l'an 2000 valent aujourd'hui | Argent | inflation INSEE | à faire |
 | 14 | Comment flotte un navire de 200 000 tonnes | Mer | poussée d'Archimède | à faire |
 | 15 | Le biais du survivant | Maths | avions de la Seconde Guerre mondiale, Abraham Wald | à faire |
