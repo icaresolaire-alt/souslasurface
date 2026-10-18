@@ -81,7 +81,7 @@ class Frame:
         c.fill()
 
     def circle(self, x, y, r, col, a=1.0, stroke=0):
-        self.color(col, a); self.c.arc(x, y, r, 0, 2*math.pi)
+        self.color(col, a); self.c.new_sub_path(); self.c.arc(x, y, r, 0, 2*math.pi)
         if stroke: self.c.set_line_width(stroke); self.c.stroke()
         else: self.c.fill()
 
