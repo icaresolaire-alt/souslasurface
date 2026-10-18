@@ -61,7 +61,7 @@ def draw(f, t):
         ga = ease(seg(t, 4.1, 4.5)) * (1 - seg(t, 12.0, 12.4))
         a1 = ease(seg(t, 4.2, 4.6)) * (1 - seg(t, 7.3, 7.6)) * ga
         if a1 > 0:
-            f.text('Avant 2008, un porte-conteneurs filait souvent à', W/2, 600, 46, MUTED, a1, bold=False)
+            f.text('Avant 2008, les gros cargos filaient à', W/2, 600, 46, MUTED, a1, bold=False)
             v = 24 * ease(seg(t, 4.4, 5.6))
             big_center(f, f'{int(round(v))} nœuds', 790, 140, INK, a1, bump(t, 5.6, 0.15))
             f.text(f'≈ {int(round(v * 1.852))} km/h', W/2, 900, 56, MUTED, a1, MONO)
