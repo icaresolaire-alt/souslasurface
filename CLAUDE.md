@@ -38,8 +38,9 @@ Repères de mise en page (1080×1920) : texte entre y≈230 et y≈1550 (le bas 
 4. Écrire `pipeline/episodes/epNNN_slug.py` en partant de `ep001` ou `ep002` (mêmes helpers `words`, `bump`, `big_center` depuis `kinetic.py`, même `sfx_events()`).
 5. Contrôle visuel : `python3 build.py episodes/epNNN_slug.py --stills 2 8 14 22 31 40 46 53 62`, assembler une planche et la regarder. Corriger les chevauchements une fois.
 6. Rendu : `python3 build.py episodes/epNNN_slug.py ../videos/AAAA-MM-JJ-slug.mp4`. Vérifier durée vidéo = audio et volume entre -17 et -15 LUFS (`ffmpeg -i f.mp4 -af ebur128 -f null -`).
-7. Commit de la vidéo et du script, push sur `main`.
-8. Vérifier que `https://raw.githubusercontent.com/icaresolaire-alt/souslasurface/main/videos/AAAA-MM-JJ-slug.mp4` répond 200 avec la bonne taille.
+   Puis la story teaser : `python3 story.py ../videos/AAAA-MM-JJ-slug.mp4 "Titre court du sujet"` (crée `AAAA-MM-JJ-slug-story.mp4`, 8 s).
+7. Commit de la vidéo, de la story et du script, push sur `main`.
+8. Vérifier que `https://raw.githubusercontent.com/icaresolaire-alt/souslasurface/main/videos/AAAA-MM-JJ-slug.mp4` et `...-story.mp4` répondent 200 avec la bonne taille.
 9. Programmer dans Metricool (`createScheduledPost`) :
    - `blogId` : `7503487`, date du jour à **18:00** Europe/Paris
    - `providers` : instagram et tiktok
@@ -48,7 +49,12 @@ Repères de mise en page (1080×1920) : texte entre y≈230 et y≈1550 (le bas 
    - `tiktokData` : **`title` obligatoire** (court), `privacyOption` `PUBLIC_TO_EVERYONE`
    - `autoPublish` true, `draft` false
    - Légende : 2 à 3 phrases sans emoji, puis une ligne de 4 à 6 hashtags.
-10. Envoyer au propriétaire la vidéo (fichier) + la légende + le lien Metricool, en disant : « Publication automatique à 18 h. Réponds "annule" avant 18 h pour l'arrêter. » Si on reçoit « annule », passer le post en brouillon avec `updateScheduledPost` (draft true).
+   Puis la story, dans un second `createScheduledPost` :
+   - date du jour à **18:15** Europe/Paris, `providers` : instagram **seul** (TikTok ne prend pas les stories via Metricool)
+   - `media` : le lien raw de `...-story.mp4`, `instagramData` : `{"type": "STORY"}`
+   - **pas de champ `text`** (une story publiée seule n'a pas de légende)
+   - La story n'est pas cliquable (limite d'Instagram pour les publications automatiques), c'est normal.
+10. Envoyer au propriétaire la vidéo (fichier) + la légende + le lien Metricool (et signaler que la story part à 18 h 15), en disant : « Publication automatique à 18 h. Réponds "annule" avant 18 h pour l'arrêter. » Si on reçoit « annule », passer le post et la story en brouillon avec `updateScheduledPost` (draft true).
 11. Mettre à jour `SUJETS.md` (statut) et `PUBLICATIONS.md` (date, sujet, fichier, sources), commit et push.
 
 En cas d'échec d'une étape : ne pas publier une vidéo non vérifiée, et prévenir le propriétaire de ce qui a bloqué.
