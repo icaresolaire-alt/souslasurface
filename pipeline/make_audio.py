@@ -5,7 +5,9 @@ SR = 44100
 
 def build_audio(mod, out_path):
     mw = out_path.replace('.wav', '-musique.wav')
-    music.render(mw, 24, breakdown=(13, 14))
+    style = getattr(mod, 'MUSIC_STYLE', None) or music.pick_style(getattr(mod, '__name__', ''))
+    music.render(mw, style, mod.TOTAL)
+    print('musique :', style)
     m, sr = sf.read(mw)
     if m.ndim == 1: m = np.stack([m, m], 1)
     N = int(mod.TOTAL * SR)

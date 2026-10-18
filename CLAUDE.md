@@ -13,7 +13,7 @@ Le propriétaire valide la vidéo du jour s'il le souhaite. **Sans réponse de s
 - Pas d'emojis, ni dans les vidéos ni dans les légendes.
 - Ne jamais terminer par « Demain : … ». La chute se termine par « Abonne-toi. » seul.
 - Garder la direction artistique : fond bleu nuit, doré, typo Inter Display + chiffres en mono (constantes dans `pipeline/lib.py`).
-- Garder la musique et la structure du pilote (`pipeline/music.py`, épisodes 001 et 002).
+- Garder la structure du pilote (épisodes 001 et 002). **La musique doit varier** : `pipeline/music.py` propose 5 ambiances (chill, piano, electro, guitare, cinema) choisies automatiquement d'après le numéro d'épisode. Ne pas forcer deux fois de suite la même (variable `MUSIC_STYLE` dans l'épisode seulement si besoin).
 - Français, tutoiement, phrases courtes et directes.
 - **Sujet géographique (routes, ports, détroits, pays) : toujours une vraie carte du monde**, avec `pipeline/worldmap.py` (contours Natural Earth, routes maritimes réalistes, ports). Exemple dans `ep002`.
 - Chiffres vérifiés uniquement. Jamais de chiffre inventé. Sujet finance : contenu éducatif, jamais de conseil personnalisé.
@@ -25,7 +25,7 @@ Le propriétaire valide la vidéo du jour s'il le souhaite. **Sans réponse de s
 3. **La question** : posée en gros, puis gardée en bandeau en haut tant qu'on n'a pas la réponse.
 4. **La preuve, ~13–30 s** : une démonstration visuelle animée (compteurs, remplissage, carte, calendrier…). Jamais d'écran figé plus de 3 s.
 5. **La réponse, ~30–36 s** : le chiffre clé en très gros.
-6. **Le retournement, ~36–48 s** : « Pourquoi ? » / « Le secret ? » puis le mécanisme caché, en visuel. La batterie de la musique s'arrête sur ce passage (mesures 14–15), c'est voulu.
+6. **Le retournement, ~36–48 s** : « Pourquoi ? » / « Le secret ? » puis le mécanisme caché, en visuel. La batterie de la musique s'arrête sur ce passage (≈ 35–40 s), c'est voulu.
 7. **L'escalade, ~48–56 s** : l'idée appliquée à plus grande échelle.
 8. **La chute, 56 s → fin** : phrase à retenir (2 lignes, la 2e en doré), puis encart « Abonne-toi. ».
 
