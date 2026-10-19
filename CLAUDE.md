@@ -35,7 +35,10 @@ Le propriétaire valide la vidéo du jour s'il le souhaite. **Sans réponse de s
 - **Sujet géographique (routes, ports, détroits, pays) : toujours une vraie carte du monde**, avec `pipeline/worldmap.py` (contours Natural Earth, routes maritimes réalistes, ports). Exemple dans `ep002`.
 - Chiffres vérifiés uniquement. Jamais de chiffre inventé. Sujet finance : contenu éducatif, jamais de conseil personnalisé.
 
-## Structure d'un épisode (60 à 70 s)
+## Structure d'un épisode (script de 66 s, vidéo finale d'environ 86 s)
+
+**Rythme : les spectateurs trouvaient les vidéos trop rapides.** `build.py` ralentit tout de 30 % (`PACE = 1.3`) : l'animation, la musique et les effets. Écrire le script sur 66 s comme avant, mais avec **moins de texte** : une idée par écran, une phrase courte à la fois, et chaque texte reste lisible au moins 2 s (temps du script) avant de disparaître.
+
 
 1. **Accroche, 0–4 s** : affirmation choc qui surgit mot par mot, et quelque chose bouge dès la première image.
 2. **Enjeu, 4–12 s** : pourquoi c'est surprenant, ce que l'intuition dirait.
