@@ -14,3 +14,4 @@
 | 2026-10-22 20:30 | Le slow steaming | Mer | videos/2026-10-22-2030-slow-steaming-v3.mp4 | Wikipedia Slow steaming, Wärtsilä, OMI GreenVoyage2050, ICCT |
 | 2026-10-23 12:30 | 10 amis qui invitent 10 amis | Maths | videos/2026-10-23-1230-dix-amis-v3.mp4 | US Census Bureau 2026, calcul exact |
 | 2026-10-23 20:30 | Les détroits qui tiennent le monde | Mer | videos/2026-10-23-2030-detroits-v3.mp4 | EIA (Ormuz, Malacca, Bab-el-Mandeb), CNUCED, EPRS |
+| 2026-10-19 18:00 | Pourquoi 9,99 € paraît moins cher que 10 € | Psychologie | videos/2026-10-19-prix-neuf.mp4 (+ story 18:15) | Thomas et Morwitz 2005, JCR (ideas.repec.org/a/oup/jconrs/v32y2005i1p54-64.html, ScienceDaily 2005) ; Anderson et Simester 2003, QME (Kellogg) + HBR via The Dish ; Lacetera, Pope et Sydnor, NBER w17030 + Chicago Booth Review |
