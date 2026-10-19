@@ -30,6 +30,7 @@ Le propriétaire valide la vidéo du jour s'il le souhaite. **Sans réponse de s
 - Ne jamais terminer par « Demain : … ». La chute se termine par « Abonne-toi. » seul.
 - Garder la direction artistique : fond bleu nuit, doré, typo Inter Display + chiffres en mono (constantes dans `pipeline/lib.py`).
 - Garder la structure du pilote (épisodes 001 et 002). **La musique doit varier** : `pipeline/music.py` propose 5 ambiances (chill, piano, electro, guitare, cinema) choisies automatiquement d'après le numéro d'épisode. Ne pas forcer deux fois de suite la même (variable `MUSIC_STYLE` dans l'épisode seulement si besoin).
+- **Effets sonores rares et doux** : seulement aux moments clés (accroche, réponse, retournement, chute). Le mixage en garde au plus un toutes les 1,2 s, adoucis et bas sous la musique (`make_audio.py`). Ne pas mettre un son sur chaque élément qui apparaît.
 - Français, tutoiement, phrases courtes et directes.
 - **Sujet géographique (routes, ports, détroits, pays) : toujours une vraie carte du monde**, avec `pipeline/worldmap.py` (contours Natural Earth, routes maritimes réalistes, ports). Exemple dans `ep002`.
 - Chiffres vérifiés uniquement. Jamais de chiffre inventé. Sujet finance : contenu éducatif, jamais de conseil personnalisé.
