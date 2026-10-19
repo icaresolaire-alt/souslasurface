@@ -1,7 +1,7 @@
 # Sujets
 
-Le mardi et le vendredi : sujet d'actualité (voir CLAUDE.md), à ajouter ici avec la rubrique « Actualité ».
-Les autres jours : premier sujet « à faire » dont la rubrique diffère de la veille. Les pistes de chiffres sont à **vérifier**.
+Ordre voulu par le propriétaire : prendre le premier « à faire » (sauter au suivant si même rubrique que la veille).
+Genre préféré : faits surprenants et intemporels. Pas d'actualité, sauf exception notée « actu ».
 
 | # | Sujet | Rubrique | Pistes à vérifier | Statut |
 |---|---|---|---|---|
@@ -17,23 +17,22 @@ Les autres jours : premier sujet « à faire » dont la rubrique diffère de la 
 | 10 | Pourquoi les navires ralentissent exprès | Mer | slow steaming, consommation qui grimpe très vite avec la vitesse | programmé (lot 19–23 oct.) |
 | 11 | 10 amis qui invitent 10 amis | Maths | 10 niveaux = 10 milliards (pas 10⁸) | programmé (lot 19–23 oct.) |
 | 12 | Les détroits qui tiennent le monde (Ormuz, Malacca) | Mer | part du pétrole et du commerce qui y passe | programmé (lot 19–23 oct.) |
-| 13 | Ce que 100 € de l'an 2000 valent aujourd'hui | Argent | inflation INSEE | à faire |
-| 14 | Comment le GPS sait où tu es | Tech | satellites, trilatération, correction de la relativité (environ 38 µs par jour) | à faire |
-| 15 | Le biais du survivant | Psychologie | avions de la Seconde Guerre mondiale, Abraham Wald | à faire |
-| 16 | Pourquoi le ciel est bleu (et le coucher de soleil orange) | Science | diffusion Rayleigh | à faire |
-| 17 | L'imprimerie de Gutenberg | Histoire | vers 1450, nombre de livres avant et après | à faire |
-| 18 | Le problème de Monty Hall | Maths | 2/3 en changeant de porte | à faire |
-| 19 | Internet passe sous la mer | Tech | câbles sous-marins, part du trafic intercontinental | à faire |
-| 20 | Pourquoi les prix finissent en ,99 | Psychologie | effet du chiffre de gauche, études | à faire |
-| 21 | Toutes les bananes sont des clones | Science | Cavendish, Gros Michel, maladie de Panama | à faire |
-| 22 | Les plus grands ports du monde | Mer | classement par conteneurs traités | à faire |
-| 23 | Le biais d'ancrage | Psychologie | expériences de Tversky et Kahneman | à faire |
-| 24 | Pourquoi les avions volent à 10 000 mètres | Science | air moins dense, consommation, météo | à faire |
-| 25 | Comment un QR code se lit même abîmé | Tech | correction d'erreurs Reed-Solomon, jusqu'à environ 30 % | à faire |
+| 13 | Pourquoi 9,99 € te paraît bien moins cher que 10 € | Psychologie | effet du chiffre de gauche, études (Thomas et Morwitz 2005) ; couverture : COVER big '0,01 €' | à faire |
+| 14 | Toutes les bananes du supermarché sont des clones | Science | Cavendish, Gros Michel, maladie de Panama ; couverture : big « 1 seule » | à faire |
+| 15 | Ton GPS doit corriger la relativité d'Einstein | Tech | ≈ 38 µs par jour, erreur ≈ 10 km par jour sans correction ; couverture : big « 10 km » | à faire |
+| 16 | Ta note, la France l'a aussi : la note de la dette | Argent (actu) | Fitch A+ (oct. 2026), écart de taux, coût de la dette ; revérifier le jour même ; couverture : big « A+ » | à faire |
+| 17 | Le zéro est une invention récente | Histoire | Inde, Brahmagupta (628), Fibonacci (1202) ; couverture : big « 0 » | à faire |
+| 18 | Le biais du survivant : les avions renforcés au mauvais endroit | Psychologie | Abraham Wald, Seconde Guerre mondiale ; couverture : big « Les trous » | à faire |
+| 19 | Monty Hall : change de porte et tu doubles tes chances | Maths | 1/3 contre 2/3 ; couverture : big « 2/3 » | à faire |
+| 20 | Pourquoi le ciel est bleu mais le coucher de soleil orange | Science | diffusion Rayleigh ; couverture : big « Bleu ? » | à faire |
+| 21 | Le biais d'ancrage | Psychologie | expériences de Tversky et Kahneman | à faire |
+| 22 | Comment un QR code se lit même abîmé | Tech | correction d'erreurs Reed-Solomon, jusqu'à environ 30 % | à faire |
+| 23 | L'imprimerie de Gutenberg | Histoire | vers 1450, nombre de livres avant et après | à faire |
+| 24 | L'effet placebo | Science | ce que disent les études, limites | à faire |
+| 25 | Ce que 100 € de l'an 2000 valent aujourd'hui | Argent | inflation INSEE | à faire |
 | 26 | La loi de Benford | Maths | le chiffre 1 en premier dans environ 30 % des cas | à faire |
-| 27 | Le chiffre zéro : une invention récente | Histoire | Inde, Brahmagupta, arrivée en Europe | à faire |
-| 28 | L'effet placebo | Science | ce que disent les études, limites | à faire |
+| 27 | Internet passe sous la mer | Tech | câbles sous-marins, part du trafic intercontinental | à faire |
+| 28 | Pourquoi les avions volent à 10 000 mètres | Science | air moins dense, consommation, météo | à faire |
 | 29 | Comment les cookies te suivent sur internet | Tech | cookies tiers, pistage publicitaire | à faire |
-| 30 | La piraterie moderne | Mer | zones et chiffres récents (BMI / IMB) | à faire |
+| 30 | Pourquoi la monnaie a de la valeur | Argent | confiance, banque centrale, fin de l'étalon-or en 1971 | à faire |
 | 31 | Comment flotte un navire de 200 000 tonnes | Science | poussée d'Archimède | à faire |
-| 32 | Pourquoi la monnaie a de la valeur | Argent | confiance, banque centrale, fin de l'étalon-or en 1971 | à faire |

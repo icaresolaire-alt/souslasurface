@@ -3,23 +3,23 @@
 Compte Instagram @souslasurface1mn et TikTok « Sous La Surface ».
 Promesse : ce que personne ne t'explique, en 1 minute. **Le compte doit être varié** : la mer et les lois cachées ne sont que deux rubriques parmi d'autres.
 
-Rubriques (tourner entre elles, jamais la même deux jours de suite, et pas plus de 2 fois par semaine pour une même rubrique) :
-- **Actualité expliquée** : 2 fois par semaine, le mardi et le vendredi (voir la règle plus bas)
+Le propriétaire préfère **les sujets intemporels et surprenants** (psychologie, science, tech, histoire, maths, argent, mer) : un fait étonnant du quotidien, expliqué par un mécanisme simple. Rester sur ce genre.
+
+Rubriques (tourner entre elles, jamais la même deux jours de suite) :
+- **Psychologie et biais du cerveau**
+- **Science, nature et corps humain**
+- **Tech et internet**
+- **Histoire et inventions**
 - **Maths et probabilités**
 - **Argent et économie**
 - **Mer et commerce mondial**
-- **Science, nature et corps humain**
-- **Histoire et inventions**
-- **Psychologie et biais du cerveau**
-- **Tech et internet**
 
-### Règle « Actualité expliquée » (mardi et vendredi)
-- Chercher sur le web les sujets des 7 derniers jours (WebSearch en mode extended) et choisir un sujet qui cache un **mécanisme** à expliquer (pourquoi les prix montent, comment marche telle technologie, ce que change telle décision…), pas une simple info.
-- Au moins **deux sources sérieuses** concordantes pour chaque fait, avec la date affichée à l'écran (« au 21 octobre 2026 »).
-- Ton neutre et factuel : sur un sujet politique disputé, expliquer les mécanismes et les positions sans donner d'avis.
-- Pas de drame humain exploité (morts, catastrophes, faits divers) comme accroche.
-- Si un fait évolue d'heure en heure (conflit en cours, crise), ne pas l'affirmer comme acquis : le dater ou choisir un autre sujet.
-- Mettre le sujet dans `SUJETS.md` avec la mention « actualité » avant de le traiter.
+### Actualité : seulement à la marge
+Pas d'actualité systématique. Seulement quand un sujet d'actu cache un mécanisme économique ou scientifique intemporel (exemple validé : la note de la dette de la France), et seulement s'il est dans `SUJETS.md`. Dans ce cas :
+- deux sources sérieuses concordantes par fait, date affichée à l'écran ;
+- ton neutre, sans avis politique ;
+- pas de drame humain comme accroche ;
+- revérifier les faits le jour même.
 
 Le propriétaire valide la vidéo du jour s'il le souhaite. **Sans réponse de sa part, la vidéo est publiée quand même à 18 h.**
 
@@ -50,7 +50,7 @@ Repères de mise en page (1080×1920) : texte entre y≈230 et y≈1550 (le bas 
 ## Procédure du jour (tâche planifiée de 12 h)
 
 1. `cd pipeline && bash setup.sh`
-2. Choisir le sujet : le mardi et le vendredi, un sujet d'actualité (règle ci-dessus). Les autres jours, le premier sujet « à faire » de `SUJETS.md` dont la rubrique est différente de celle de la veille (dernière ligne de `PUBLICATIONS.md`). Quand il reste moins de 10 sujets « à faire », en ajouter 10 nouveaux, variés, dans plusieurs rubriques.
+2. Choisir le sujet : le premier sujet « à faire » de `SUJETS.md` (ils sont déjà dans l'ordre voulu par le propriétaire ; si sa rubrique est la même que la veille, prendre le suivant). Quand il reste moins de 10 sujets « à faire », en ajouter 10 nouveaux dans le même esprit (faits surprenants et intemporels, rubriques variées), sans actualité.
 3. Vérifier chaque chiffre avec une recherche web et garder les sources. Si un chiffre n'est pas vérifiable, le retirer ou formuler une fourchette prudente.
 4. Écrire `pipeline/episodes/epNNN_slug.py` en partant de `ep001` ou `ep002` (mêmes helpers `words`, `bump`, `big_center` depuis `kinetic.py`, même `sfx_events()`).
    **Obligatoire : une couverture** (première image de la vidéo, celle qu'on voit dans la grille du profil). Déclarer en haut de l'épisode, par exemple :
