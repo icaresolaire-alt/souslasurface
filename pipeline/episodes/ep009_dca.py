@@ -4,6 +4,7 @@ from lib import *
 from kinetic import words, bump, big_center
 
 TOTAL = 66.0
+COVER = dict(tag='Argent', l1='Tout d’un coup', l2='ou petit à petit ?', big='DCA')
 
 PRICES = [10, 8, 6, 5, 6, 8, 9, 8, 10, 11, 10, 12]          # série d'exemple (illustrative)
 RISING = [10 + 0.5 * i for i in range(12)]                    # 10 -> 15,5 : marché qui monte

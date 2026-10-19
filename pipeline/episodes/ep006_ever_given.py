@@ -6,6 +6,7 @@ from kinetic import words, bump, big_center
 from worldmap import WorldMap, PORTS, ROUTE_SHANGHAI_ROTTERDAM as ROUTE
 
 TOTAL = 66.0
+COVER = dict(tag='Mer', l1='Un seul navire', l2='a bloqué le monde', big='6 jours')
 
 # cadrages : monde (Asie -> Europe, Afrique entière) et zoom sur le canal
 WORLD = dict(lon=(-25, 125), lat=(-40, 60), x=60, y=600, w=960)        # y 600 -> 1240

@@ -6,6 +6,7 @@ from kinetic import words, bump, big_center
 from worldmap import WorldMap
 
 TOTAL = 66.0
+COVER = dict(tag='Mer', l1='Pourquoi tant de navires', l2='battent pavillon panaméen', big='45 %')
 
 # lieux (lon, lat)
 PLACES = {

@@ -5,6 +5,7 @@ from kinetic import words, bump, big_center
 from worldmap import WorldMap
 
 TOTAL = 66.0
+COVER = dict(tag='Maths', l1='20 % des causes', l2='font 80 % des effets', big='80/20')
 
 # 100 clients : décroissance exponentielle calée pour que les 20 premiers fassent 80 % (r^20 = 1/4 en limite)
 N = 100

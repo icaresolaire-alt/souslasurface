@@ -5,6 +5,7 @@ from kinetic import words, bump, big_center
 from worldmap import WorldMap
 
 TOTAL = 66.0
+COVER = dict(tag='Histoire', l1='La boîte qui a', l2='changé le monde', big='÷36')
 
 # carte côte Est / golfe du Mexique : Newark -> Houston (Ideal X, 26 avril 1956)
 MAP = WorldMap(lon=(-99, -67), lat=(22.5, 43.5), x=60, y=560, w=960)

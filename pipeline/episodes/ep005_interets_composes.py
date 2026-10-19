@@ -4,6 +4,7 @@ from lib import *
 from kinetic import words, bump, big_center
 
 TOTAL = 66.0
+COVER = dict(tag='Argent', l1='10 000 € placés', l2='pendant 40 ans', big='×15')
 P0, R = 10000, 0.07
 def val(y): return P0 * (1 + R) ** y              # capital composé
 def simple(y): return P0 * R * y                   # intérêts simples cumulés

@@ -5,6 +5,7 @@ from kinetic import words, bump, big_center
 from worldmap import WorldMap, PORTS, ROUTE_SHANGHAI_ROTTERDAM as ROUTE
 
 TOTAL = 66.0
+COVER = dict(tag='Mer', l1='Pourquoi les cargos', l2='ralentissent exprès', big='−44 %')
 MAP = WorldMap(lon=(-15, 130), lat=(-5, 60), x=60, y=560, w=960)
 
 NM = 10500                     # Shanghai -> Rotterdam via Suez, milles nautiques (≈ 19 500 km)

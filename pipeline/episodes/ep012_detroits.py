@@ -5,6 +5,7 @@ from kinetic import words, bump, big_center
 from worldmap import WorldMap, PORTS, ROUTE_SHANGHAI_ROTTERDAM as ROUTE
 
 TOTAL = 66.0
+COVER = dict(tag='Mer', l1='Les détroits qui', l2='tiennent le monde', big='1 / 5')
 WORLD = WorldMap(lon=(-115, 135), lat=(-42, 52), x=40, y=600, w=1000)      # monde, Panama compris
 ZOOM = WorldMap(lon=(25, 110), lat=(-8, 39), x=60, y=560, w=960)          # Afrique - Asie
 
