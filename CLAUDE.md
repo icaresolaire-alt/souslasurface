@@ -54,8 +54,8 @@ Repères de mise en page (1080×1920) : texte entre y≈230 et y≈1550 (le bas 
 3. Vérifier chaque chiffre avec une recherche web et garder les sources. Si un chiffre n'est pas vérifiable, le retirer ou formuler une fourchette prudente.
 4. Écrire `pipeline/episodes/epNNN_slug.py` en partant de `ep001` ou `ep002` (mêmes helpers `words`, `bump`, `big_center` depuis `kinetic.py`, même `sfx_events()`).
    **Obligatoire : une couverture** (première image de la vidéo, celle qu'on voit dans la grille du profil). Déclarer en haut de l'épisode, par exemple :
-   `COVER = dict(tag='Maths', l1='Pourquoi le casino', l2='gagne toujours', big='2,7 %')`
-   `tag` = rubrique, `l1` = début du titre (blanc), `l2` = la partie qui accroche (doré), `big` = un chiffre ou mot-choc court (5 caractères environ). Le titre doit donner envie de cliquer en le lisant tout petit.
+   `COVER = dict(tag='Psychologie', l1='Pourquoi 9,99 € te paraît', l2='bien moins cher que 10 €')`
+   `tag` = rubrique (en petit), `l1` = début du titre (blanc), `l2` = la partie qui accroche (doré). **Uniquement le titre, en très gros : pas de chiffre isolé** (le propriétaire trouve que ça ne parle pas). Le titre doit donner envie de cliquer en le lisant tout petit.
 5. Contrôle visuel : `python3 build.py episodes/epNNN_slug.py --stills 2 8 14 22 31 40 46 53 62`, assembler une planche et la regarder. Corriger les chevauchements une fois. Puis `python3 build.py episodes/epNNN_slug.py --cover` et regarder la couverture (recadrée en 3:4 au centre, comme dans la grille Instagram).
 6. Rendu : `python3 build.py episodes/epNNN_slug.py ../videos/AAAA-MM-JJ-slug.mp4`. Vérifier durée vidéo = audio et volume entre -17 et -15 LUFS (`ffmpeg -i f.mp4 -af ebur128 -f null -`).
    Puis la story teaser : `python3 story.py ../videos/AAAA-MM-JJ-slug.mp4 "Titre court du sujet"` (crée `AAAA-MM-JJ-slug-story.mp4`, 8 s).
