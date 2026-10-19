@@ -4,6 +4,7 @@ from lib import *
 from kinetic import words, bump, big_center
 
 TOTAL = 66.0
+COVER = dict(tag='Maths', l1='Pourquoi le casino', l2='gagne toujours', big='2,7 %')
 
 # roulette européenne : ordre réel des cases sur le cylindre, cases rouges
 WHEEL = [0, 32, 15, 19, 4, 21, 2, 25, 17, 34, 6, 27, 13, 36, 11, 30, 8, 23, 10, 5, 24, 16, 33, 1, 20, 14,

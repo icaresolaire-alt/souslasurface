@@ -4,6 +4,7 @@ from lib import *
 from kinetic import words, bump, big_center
 
 TOTAL = 66.0
+COVER = dict(tag='Mer', l1='Ton t-shirt a fait', l2='20 000 km pour', big='5 cts')
 # route stylisée Shanghai -> Rotterdam (via Singapour, Suez)
 from worldmap import WorldMap, PORTS, ROUTE_SHANGHAI_ROTTERDAM as ROUTE
 MAP = WorldMap(lon=(-15, 130), lat=(-5, 60), x=60, y=600, w=960)

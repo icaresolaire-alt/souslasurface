@@ -5,6 +5,7 @@ from lib import *
 from kinetic import words, bump, big_center
 
 TOTAL = 66.0
+COVER = dict(tag='Maths', l1='10 amis qui invitent', l2='10 amis', big='×10')
 POP = 8.2e9                      # population mondiale mi-2026 (US Census Bureau, IDB)
 
 # anneaux concentriques : un anneau par étape

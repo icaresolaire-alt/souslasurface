@@ -53,7 +53,10 @@ Repères de mise en page (1080×1920) : texte entre y≈230 et y≈1550 (le bas 
 2. Choisir le sujet : le mardi et le vendredi, un sujet d'actualité (règle ci-dessus). Les autres jours, le premier sujet « à faire » de `SUJETS.md` dont la rubrique est différente de celle de la veille (dernière ligne de `PUBLICATIONS.md`). Quand il reste moins de 10 sujets « à faire », en ajouter 10 nouveaux, variés, dans plusieurs rubriques.
 3. Vérifier chaque chiffre avec une recherche web et garder les sources. Si un chiffre n'est pas vérifiable, le retirer ou formuler une fourchette prudente.
 4. Écrire `pipeline/episodes/epNNN_slug.py` en partant de `ep001` ou `ep002` (mêmes helpers `words`, `bump`, `big_center` depuis `kinetic.py`, même `sfx_events()`).
-5. Contrôle visuel : `python3 build.py episodes/epNNN_slug.py --stills 2 8 14 22 31 40 46 53 62`, assembler une planche et la regarder. Corriger les chevauchements une fois.
+   **Obligatoire : une couverture** (première image de la vidéo, celle qu'on voit dans la grille du profil). Déclarer en haut de l'épisode, par exemple :
+   `COVER = dict(tag='Maths', l1='Pourquoi le casino', l2='gagne toujours', big='2,7 %')`
+   `tag` = rubrique, `l1` = début du titre (blanc), `l2` = la partie qui accroche (doré), `big` = un chiffre ou mot-choc court (5 caractères environ). Le titre doit donner envie de cliquer en le lisant tout petit.
+5. Contrôle visuel : `python3 build.py episodes/epNNN_slug.py --stills 2 8 14 22 31 40 46 53 62`, assembler une planche et la regarder. Corriger les chevauchements une fois. Puis `python3 build.py episodes/epNNN_slug.py --cover` et regarder la couverture (recadrée en 3:4 au centre, comme dans la grille Instagram).
 6. Rendu : `python3 build.py episodes/epNNN_slug.py ../videos/AAAA-MM-JJ-slug.mp4`. Vérifier durée vidéo = audio et volume entre -17 et -15 LUFS (`ffmpeg -i f.mp4 -af ebur128 -f null -`).
    Puis la story teaser : `python3 story.py ../videos/AAAA-MM-JJ-slug.mp4 "Titre court du sujet"` (crée `AAAA-MM-JJ-slug-story.mp4`, 8 s).
 7. Commit de la vidéo, de la story et du script, push sur `main`.
