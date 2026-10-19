@@ -5,14 +5,16 @@ SR = 44100
 MIN_GAP = 1.2    # secondes minimum entre deux effets
 FX_LEVEL = 0.022  # niveau des effets (avant : 0.055)
 
-def build_audio(mod, out_path):
+def build_audio(mod, out_path, pace=1.0):
+    """pace > 1 : l'épisode est ralenti d'autant (musique, silences et effets suivent)."""
+    total = mod.TOTAL * pace
     mw = out_path.replace('.wav', '-musique.wav')
     style = getattr(mod, 'MUSIC_STYLE', None) or music.pick_style(getattr(mod, '__name__', ''))
-    music.render(mw, style, mod.TOTAL)
+    music.render(mw, style, total, quiet=(34.5 * pace, 40.0 * pace))
     print('musique :', style)
     m, sr = sf.read(mw)
     if m.ndim == 1: m = np.stack([m, m], 1)
-    N = int(mod.TOTAL * SR)
+    N = int(total * SR)
     m = m[:N] if len(m) >= N else np.concatenate([m, np.zeros((N - len(m), 2))])
     fade = int(2.0 * SR); m[-fade:] *= np.linspace(1, 0, fade)[:, None]
     # Effets sonores : peu nombreux et doux (demande du propriétaire).
@@ -21,7 +23,7 @@ def build_audio(mod, out_path):
     # 3) on les mixe nettement sous la musique.
     fx = np.zeros(N + SR * 3)
     last = -99.0
-    for t0, snd in sorted(mod.sfx_events(), key=lambda e: e[0]):
+    for t0, snd in sorted(((t * pace, x) for t, x in mod.sfx_events()), key=lambda e: e[0]):
         if t0 - last < MIN_GAP: continue
         last = t0
         snd = np.asarray(snd, dtype=float).copy()

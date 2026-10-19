@@ -115,8 +115,8 @@ def song(style='chill', seconds=66, quiet=(34.5, 40.0)):
         tr.append(m.copy(time=t - last)); last = t
     return mid
 
-def render(path_wav, style='chill', seconds=66):
-    mid = song(style, seconds); midp = path_wav.replace('.wav', '.mid'); mid.save(midp)
+def render(path_wav, style='chill', seconds=66, quiet=(34.5, 40.0)):
+    mid = song(style, seconds, quiet); midp = path_wav.replace('.wav', '.mid'); mid.save(midp)
     subprocess.run(['fluidsynth', '-ni', '-g', '0.7', '-r', '44100', '-F', path_wav,
                     '/usr/share/sounds/sf2/FluidR3_GM.sf2', midp], check=True, capture_output=True)
 

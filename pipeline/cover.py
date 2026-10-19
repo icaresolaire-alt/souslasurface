@@ -59,8 +59,8 @@ def fallback_cover(mod):
     half = max(1, len(words_) // 2)
     return dict(l1=' '.join(words_[:half]), l2=' '.join(words_[half:]) or ' ')
 
-def wrap_draw(mod):
-    """Renvoie (draw, total) : la couverture puis l'épisode, décalé de OFFSET secondes."""
+def wrap_draw(mod, pace=1.0):
+    """Renvoie (draw, total) : la couverture puis l'épisode, décalé de OFFSET secondes et ralenti de `pace`."""
     cover = getattr(mod, 'COVER', None) or fallback_cover(mod)
     def draw(f, t):
         if t < OFFSET:
@@ -68,5 +68,5 @@ def wrap_draw(mod):
             a = 1.0 if t < HOLD else 1 - ease_io((t - HOLD) / FADE)
             f.c.push_group(); draw_cover(f, cover, 1.0); f.c.pop_group_to_source(); f.c.paint_with_alpha(a)
         else:
-            mod.draw(f, t - OFFSET)
-    return draw, mod.TOTAL + OFFSET
+            mod.draw(f, (t - OFFSET) / pace)
+    return draw, mod.TOTAL * pace + OFFSET
