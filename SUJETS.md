@@ -18,7 +18,7 @@ Genre préféré : faits surprenants et intemporels. Pas d'actualité, sauf exce
 | 11 | 10 amis qui invitent 10 amis | Maths | 10 niveaux = 10 milliards (pas 10⁸) | programmé (lot 19–23 oct.) |
 | 12 | Les détroits qui tiennent le monde (Ormuz, Malacca) | Mer | part du pétrole et du commerce qui y passe | programmé (lot 19–23 oct.) |
 | 13 | Pourquoi 9,99 € te paraît bien moins cher que 10 € | Psychologie | effet du chiffre de gauche, études (Thomas et Morwitz 2005) | programmé (19 oct. 18 h) |
-| 14 | Toutes les bananes du supermarché sont des clones | Science | Cavendish, Gros Michel, maladie de Panama | à faire |
+| 14 | Toutes les bananes du supermarché sont des clones | Science | Cavendish, Gros Michel, maladie de Panama | programmé (20 oct. 18 h) |
 | 15 | Ton GPS doit corriger la relativité d'Einstein | Tech | ≈ 38 µs par jour, erreur ≈ 10 km par jour sans correction | à faire |
 | 16 | Ta note, la France l'a aussi : la note de la dette | Argent (actu) | Fitch A+ (oct. 2026), écart de taux, coût de la dette ; revérifier le jour même | à faire |
 | 17 | Le zéro est une invention récente | Histoire | Inde, Brahmagupta (628), Fibonacci (1202) | à faire |
