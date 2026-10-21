@@ -14,6 +14,9 @@ Rubriques (tourner entre elles, jamais la même deux jours de suite) :
 - **Argent et économie**
 - **Mer et commerce mondial**
 
+### Format validé : « Vrai ou faux ? »
+Quatre idées reçues vérifiées une par une, avec un tampon de verdict (VRAI, FAUX, PLUTÔT VRAI, PAS PROUVÉ). Modèle : `pipeline/episodes/ep019_vrai_ou_faux.py`. On ne reprend jamais une affirmation choc sans la vérifier : le verdict suit les sources, même s'il casse l'accroche.
+
 ### Actualité : seulement à la marge
 Pas d'actualité systématique. Seulement quand un sujet d'actu cache un mécanisme économique ou scientifique intemporel (exemple validé : la note de la dette de la France), et seulement s'il est dans `SUJETS.md`. Dans ce cas :
 - deux sources sérieuses concordantes par fait, date affichée à l'écran ;
