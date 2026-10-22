@@ -20,14 +20,14 @@ Genre préféré : faits surprenants et intemporels. Pas d'actualité, sauf exce
 | 13 | Pourquoi 9,99 € te paraît bien moins cher que 10 € | Psychologie | effet du chiffre de gauche, études (Thomas et Morwitz 2005) | programmé (19 oct. 18 h) |
 | 14 | Toutes les bananes du supermarché sont des clones | Science | Cavendish, Gros Michel, maladie de Panama | programmé (20 oct. 18 h) |
 | 15 | Ton GPS doit corriger la relativité d'Einstein | Tech | ≈ 38 µs par jour, erreur ≈ 10 km par jour sans correction | programmé (21 oct. 18 h) |
-| 16 | Ta note, la France l'a aussi : la note de la dette | Argent (actu) | Fitch A+ (oct. 2026), écart de taux, coût de la dette ; revérifier le jour même | à faire |
-| 32 | Ton téléphone t'écoute-t-il vraiment ? | Tech | vrai ou faux : pas de preuve d'écoute micro pour la pub (étude Northeastern 2018) ; il n'en a pas besoin, le pistage suffit ; affaire « Active Listening » CMG 2024 = argument commercial non prouvé | à faire |
-| 17 | Le zéro est une invention récente | Histoire | Inde, Brahmagupta (628), Fibonacci (1202) | à faire |
-| 33 | Pour 2 € de loterie, combien te revient ? | Maths | taux de retour aux joueurs FDJ (Loto, grattage), part des dépenses selon les revenus (études) ; nuancer « impôt sur les pauvres » | à faire |
+| 16 | Ta note, la France l'a aussi : la note de la dette | Argent (actu) | Fitch A+ (oct. 2026), écart de taux, coût de la dette ; revérifier le jour même | à faire (reporté le 22 oct. : OAT 10 ans à 5 % le 21 oct., situation trop mouvante pour une publication non relue ; même jour qu'un sujet Argent à 12 h 30) |
+| 32 | Ton téléphone t'écoute-t-il vraiment ? | Tech | vrai ou faux : pas de preuve d'écoute micro pour la pub (étude Northeastern 2018) ; il n'en a pas besoin, le pistage suffit ; affaire « Active Listening » CMG 2024 = argument commercial non prouvé | couvert par l'épisode Vrai ou faux (24 oct. 12 h 30) |
+| 17 | Le zéro est une invention récente | Histoire | Inde, Brahmagupta (628), Fibonacci (1202) | programmé (22 oct. 18 h) |
+| 33 | Pour 2 € de loterie, combien te revient ? | Maths | taux de retour aux joueurs FDJ (Loto, grattage), part des dépenses selon les revenus (études) ; nuancer « impôt sur les pauvres » | couvert par l'épisode Vrai ou faux (24 oct. 12 h 30) |
 | 18 | Le biais du survivant : les avions renforcés au mauvais endroit | Psychologie | Abraham Wald, Seconde Guerre mondiale | à faire |
-| 34 | Le diamant : rare ou rendu rare ? | Argent | De Beers ~80-90 % de l'offre au XXe siècle, slogan « A diamond is forever » 1947, chute des prix avec le diamant de synthèse | à faire |
+| 34 | Le diamant : rare ou rendu rare ? | Argent | De Beers ~80-90 % de l'offre au XXe siècle, slogan « A diamond is forever » 1947, chute des prix avec le diamant de synthèse | couvert par l'épisode Vrai ou faux (24 oct. 12 h 30) |
 | 20 | Pourquoi le ciel est bleu mais le coucher de soleil orange | Science | diffusion Rayleigh | à faire |
-| 35 | Ton plastique est-il vraiment recyclé ? | Science | OCDE 2022 : ~9 % du plastique recyclé dans le monde ; enquête NPR/Frontline 2020 sur la promotion du recyclage par l'industrie ; chiffres France (Citeo) | à faire |
+| 35 | Ton plastique est-il vraiment recyclé ? | Science | OCDE 2022 : ~9 % du plastique recyclé dans le monde ; enquête NPR/Frontline 2020 sur la promotion du recyclage par l'industrie ; chiffres France (Citeo) | couvert par l'épisode Vrai ou faux (24 oct. 12 h 30) |
 | 19 | Monty Hall : change de porte et tu doubles tes chances | Maths | 1/3 contre 2/3 | à faire |
 | 21 | Le biais d'ancrage | Psychologie | expériences de Tversky et Kahneman | à faire |
 | 36 | Eau en bouteille ou eau du robinet ? | Science | prix (×100 à ×300), règles eau minérale/de source en France, affaire Nestlé Waters 2024, microplastiques (Columbia 2024) ; ne pas dire « plus d'impuretés » sans source | à faire |
