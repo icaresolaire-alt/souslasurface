@@ -20,7 +20,7 @@ Genre préféré : faits surprenants et intemporels. Pas d'actualité, sauf exce
 | 13 | Pourquoi 9,99 € te paraît bien moins cher que 10 € | Psychologie | effet du chiffre de gauche, études (Thomas et Morwitz 2005) | programmé (19 oct. 18 h) |
 | 14 | Toutes les bananes du supermarché sont des clones | Science | Cavendish, Gros Michel, maladie de Panama | programmé (20 oct. 18 h) |
 | 15 | Ton GPS doit corriger la relativité d'Einstein | Tech | ≈ 38 µs par jour, erreur ≈ 10 km par jour sans correction | programmé (21 oct. 18 h) |
-| 16 | Ta note, la France l'a aussi : la note de la dette | Argent (actu) | Fitch A+ (oct. 2026), écart de taux, coût de la dette ; revérifier le jour même | à faire (reporté le 22 oct. : OAT 10 ans à 5 % le 21 oct., situation trop mouvante pour une publication non relue ; même jour qu'un sujet Argent à 12 h 30 ; de nouveau reporté le 23 oct. : rendement OAT toujours au-dessus de 4 %, sujet trop mouvant sans relecture du propriétaire ; reporté le 24 oct. pour la même raison ; reporté le 25 oct. : toujours sans relecture du propriétaire, sujet suivant pris ; reporté le 26 oct. pour la même raison ; reporté le 27 oct. pour la même raison ; reporté le 28 oct. pour la même raison) |
+| 16 | Ta note, la France l'a aussi : la note de la dette | Argent (actu) | Fitch A+ (oct. 2026), écart de taux, coût de la dette ; revérifier le jour même | à faire (reporté le 22 oct. : OAT 10 ans à 5 % le 21 oct., situation trop mouvante pour une publication non relue ; même jour qu'un sujet Argent à 12 h 30 ; de nouveau reporté le 23 oct. : rendement OAT toujours au-dessus de 4 %, sujet trop mouvant sans relecture du propriétaire ; reporté le 24 oct. pour la même raison ; reporté le 25 oct. : toujours sans relecture du propriétaire, sujet suivant pris ; reporté le 26 oct. pour la même raison ; reporté le 27 oct. pour la même raison ; reporté le 28 oct. pour la même raison ; reporté le 29 oct. pour la même raison) |
 | 32 | Ton téléphone t'écoute-t-il vraiment ? | Tech | vrai ou faux : pas de preuve d'écoute micro pour la pub (étude Northeastern 2018) ; il n'en a pas besoin, le pistage suffit ; affaire « Active Listening » CMG 2024 = argument commercial non prouvé | couvert par l'épisode Vrai ou faux (24 oct. 12 h 30) |
 | 17 | Le zéro est une invention récente | Histoire | Inde, Brahmagupta (628), Fibonacci (1202) | programmé (22 oct. 18 h) |
 | 33 | Pour 2 € de loterie, combien te revient ? | Maths | taux de retour aux joueurs FDJ (Loto, grattage), part des dépenses selon les revenus (études) ; nuancer « impôt sur les pauvres » | couvert par l'épisode Vrai ou faux (24 oct. 12 h 30) |
@@ -32,7 +32,7 @@ Genre préféré : faits surprenants et intemporels. Pas d'actualité, sauf exce
 | 21 | Le biais d'ancrage | Psychologie | expériences de Tversky et Kahneman | programmé (26 oct. 18 h) |
 | 36 | Eau en bouteille ou eau du robinet ? | Science | prix (×100 à ×300), règles eau minérale/de source en France, affaire Nestlé Waters 2024, microplastiques (Columbia 2024) ; ne pas dire « plus d'impuretés » sans source | programmé (27 oct. 18 h ; angle prix + contrôle sanitaire, affaire Nestlé et microplastiques volontairement écartés) |
 | 22 | Comment un QR code se lit même abîmé | Tech | correction d'erreurs Reed-Solomon, jusqu'à environ 30 % | programmé (28 oct. 18 h) |
-| 23 | L'imprimerie de Gutenberg | Histoire | vers 1450, nombre de livres avant et après | à faire |
+| 23 | L'imprimerie de Gutenberg | Histoire | vers 1450, nombre de livres avant et après | programmé (29 oct. 18 h ; angle : le secret = les lettres réutilisables, pas la presse) |
 | 24 | L'effet placebo | Science | ce que disent les études, limites | à faire |
 | 25 | Ce que 100 € de l'an 2000 valent aujourd'hui | Argent | inflation INSEE | à faire |
 | 26 | La loi de Benford | Maths | le chiffre 1 en premier dans environ 30 % des cas | à faire |
@@ -41,3 +41,13 @@ Genre préféré : faits surprenants et intemporels. Pas d'actualité, sauf exce
 | 29 | Comment les cookies te suivent sur internet | Tech | cookies tiers, pistage publicitaire | à faire |
 | 30 | Pourquoi la monnaie a de la valeur | Argent | confiance, banque centrale, fin de l'étalon-or en 1971 | à faire |
 | 31 | Comment flotte un navire de 200 000 tonnes | Science | poussée d'Archimède | à faire |
+| 37 | Pourquoi tu oublies ce que tu venais chercher en passant une porte | Psychologie | « effet de la porte », études de G. Radvansky (Notre Dame, 2011) | à faire |
+| 38 | Pourquoi les avions n'ont pas de rangée 13 (et autres superstitions chiffrées) | Histoire | triskaïdékaphobie, compagnies concernées, vendredi 13 | à faire |
+| 39 | Pourquoi les prix à la pompe montent vite et baissent lentement | Argent | effet « fusée et plume » (rockets and feathers), études économiques | à faire |
+| 40 | Combien de fois plier une feuille pour atteindre la Lune | Maths | doublement, 42 pliages (calcul exact), record de Britney Gallivan (12 plis) | à faire |
+| 41 | Pourquoi ton mot de passe de 8 caractères tombe en quelques heures | Tech | combinatoire, puissance de calcul, recommandations ANSSI/CNIL | à faire |
+| 42 | Pourquoi la mer est salée mais pas les rivières | Science | érosion des roches, sels apportés depuis des millions d'années, 35 g/L en moyenne (NOAA, USGS) | à faire |
+| 43 | Pourquoi les boîtes de conserve ont été inventées avant l'ouvre-boîte | Histoire | Appert, Durand 1810, ouvre-boîte vers 1855-1858 | à faire |
+| 44 | L'effet IKEA : on aime plus ce qu'on a monté soi-même | Psychologie | Norton, Mochon et Ariely 2011 | à faire |
+| 45 | Pourquoi les porte-conteneurs ont tous la même couleur de coque | Mer | peinture antifouling, rouge sous la ligne de flottaison, histoire du cuivre | à faire |
+| 46 | Pourquoi un billet de 500 € a disparu | Argent | arrêt d'émission BCE 2019, raisons officielles, billets encore valables | à faire |
