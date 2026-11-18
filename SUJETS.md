@@ -52,7 +52,7 @@ Genre préféré : faits surprenants et intemporels. Pas d'actualité, sauf exce
 | 45 | Pourquoi les porte-conteneurs ont tous la même couleur de coque | Mer | peinture antifouling, rouge sous la ligne de flottaison, histoire du cuivre | programmé (15 nov. 18 h, ep042 ; angle : tout s'accroche, +10 % / +20 % de carburant d'après l'étude US Navy 2011, cuivre dont l'oxyde est rouge, HMS Alarm 1761, Royal Navy 1778, 56 M$/an pour une classe de destroyers) |
 | 46 | Pourquoi un billet de 500 € a disparu | Argent | arrêt d'émission BCE 2019, raisons officielles, billets encore valables | programmé (16 nov.) |
 | 47 | Pourquoi on bâille quand quelqu'un bâille | Science | contagion du bâillement, études (Provine), lien avec l'empathie discuté | publié (17 nov.) |
-| 48 | L'effet de simple exposition : on aime ce qu'on a déjà vu | Psychologie | Zajonc 1968, publicité, chansons | à faire |
+| 48 | L'effet de simple exposition : on aime ce qu'on a déjà vu | Psychologie | Zajonc 1968, publicité, chansons | programmé (18 nov. 18 h, ep045 ; angle : tour Eiffel « inutile et monstrueuse » en 1887, mots turcs inventés vus 1 à 25 fois, 208 expériences (Bornstein 1989), le nouveau inquiète, reflet miroir (Mita 1977), sommet à 10-20 fois) |
 | 49 | Pourquoi le clavier n'est pas rangé dans l'ordre alphabétique | Tech | QWERTY de Sholes (1873), AZERTY, mythe des machines qui se bloquent à nuancer | à faire |
 | 50 | Pourquoi une minute a 60 secondes | Histoire | base 60 des Babyloniens, nombreux diviseurs de 60 | à faire |
 | 51 | Le paradoxe du lièvre et de la tortue (Zénon) | Maths | série 1/2 + 1/4 + … = 1, Zénon d'Élée | à faire |
@@ -61,3 +61,13 @@ Genre préféré : faits surprenants et intemporels. Pas d'actualité, sauf exce
 | 54 | Pourquoi tes doigts fripent dans l'eau | Science | réflexe nerveux (vasoconstriction), hypothèse d'adhérence (Changizi 2011, Kareklas 2013, nuance 2014) | à faire |
 | 55 | Pourquoi le premier prix d'une carte de restaurant est rarement le moins cher qu'on commande | Psychologie | effet de leurre et d'ancrage sur les menus, études | à faire |
 | 56 | Comment un code-barres se lit en une fraction de seconde | Tech | EAN-13, barres et espaces, chiffre de contrôle | à faire |
+| 57 | Pourquoi le pain grillé tombe souvent côté beurre | Science | R. Matthews 1995 (European Journal of Physics), hauteur de table et rotation, expérience des 10 000 tartines (2001) | à faire |
+| 58 | Pourquoi tu entends ta voix bizarrement en enregistrement | Science | conduction osseuse contre aérienne, études de perception de sa propre voix | à faire |
+| 59 | Le paradoxe des anniversaires : 23 personnes suffisent | Maths | 50,7 % avec 23 personnes, 99,9 % avec 70, calcul exact | à faire |
+| 60 | Pourquoi les grands magasins n'ont ni horloge ni fenêtre | Argent | casinos et galeries, design de Victor Gruen, études sur le temps perçu ; nuancer les mythes | à faire |
+| 61 | L'effet Dunning-Kruger : les moins compétents se surestiment | Psychologie | Kruger et Dunning 1999, critiques statistiques récentes à nuancer | à faire |
+| 62 | Pourquoi le Wi-Fi traverse les murs mais pas la 5G millimétrique | Tech | longueur d'onde, 2,4 et 5 GHz, ondes millimétriques | à faire |
+| 63 | Pourquoi le calendrier a des mois de 28, 30 et 31 jours | Histoire | calendrier romain, réforme julienne (46 av. J.-C.), grégorienne (1582) ; mythe d'Auguste à nuancer | à faire |
+| 64 | Pourquoi l'eau de mer gèle à -1,9 °C | Mer | sel qui abaisse le point de congélation, banquise peu salée (NOAA, NSIDC) | à faire |
+| 65 | Pourquoi les intérêts composés font doubler ton argent (règle de 72) | Argent | règle de 72, calculs exacts, contenu éducatif sans conseil | à faire |
+| 66 | Le biais de confirmation | Psychologie | Wason 1960 (tâche 2-4-6), études sur la recherche d'information | à faire |
