@@ -1,0 +1,46 @@
+{
+ "lignes": [
+  {
+   "id": "fr1",
+   "instruct": "male, young adult, moderate pitch",
+   "texte": "Trois portes. Derrière l'une, une voiture. Tu choisis une porte, l'animateur en ouvre une autre : une chèvre. Tu gardes, ou tu changes ? Change. Tu gagnes deux fois sur trois.",
+   "language": "fr"
+  },
+  {
+   "id": "fr2",
+   "instruct": "male, middle-aged, low pitch",
+   "texte": "Trois portes. Derrière l'une, une voiture. Tu choisis une porte, l'animateur en ouvre une autre : une chèvre. Tu gardes, ou tu changes ? Change. Tu gagnes deux fois sur trois.",
+   "language": "fr"
+  },
+  {
+   "id": "fr3",
+   "instruct": "female, young adult, moderate pitch",
+   "texte": "Trois portes. Derrière l'une, une voiture. Tu choisis une porte, l'animateur en ouvre une autre : une chèvre. Tu gardes, ou tu changes ? Change. Tu gagnes deux fois sur trois.",
+   "language": "fr"
+  },
+  {
+   "id": "fr4",
+   "instruct": "female, middle-aged, low pitch",
+   "texte": "Trois portes. Derrière l'une, une voiture. Tu choisis une porte, l'animateur en ouvre une autre : une chèvre. Tu gardes, ou tu changes ? Change. Tu gagnes deux fois sur trois.",
+   "language": "fr"
+  },
+  {
+   "id": "fr5",
+   "instruct": "male, young adult, high pitch",
+   "texte": "Trois portes. Derrière l'une, une voiture. Tu choisis une porte, l'animateur en ouvre une autre : une chèvre. Tu gardes, ou tu changes ? Change. Tu gagnes deux fois sur trois.",
+   "language": "fr"
+  },
+  {
+   "id": "en1",
+   "instruct": "male, young adult, moderate pitch, american accent",
+   "texte": "Three doors. Behind one of them, a car. You pick a door, the host opens another one: a goat. Do you stay, or switch? Switch. You win two times out of three.",
+   "language": "en"
+  },
+  {
+   "id": "en2",
+   "instruct": "female, young adult, moderate pitch, british accent",
+   "texte": "Three doors. Behind one of them, a car. You pick a door, the host opens another one: a goat. Do you stay, or switch? Switch. You win two times out of three.",
+   "language": "en"
+  }
+ ]
+}
