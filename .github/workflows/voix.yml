@@ -31,7 +31,7 @@ jobs:
       - name: Renvoi des fichiers
         run: |
           git config user.name "voix-bot"; git config user.email "actions@github.com"
-          git add voix/sorties
+          git add -f voix/sorties
           git diff --cached --quiet && exit 0
           git commit -m "Voix générées"
           for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
